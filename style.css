@@ -1,0 +1,133 @@
+body{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg
+    ), linear-gradient(110deg, #f93d66, #6d47d9);
+    font-family: "Segoe UI";
+}
+
+.advert{
+    display: flex;
+}
+
+nav{
+text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #ffc600;
+    color: black;
+    font-weight: 900;
+    padding: 20px 100px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.taco{
+    min-height: 300px;
+    min-width: 900px;
+background: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu div{
+    background-color: white;
+    padding: 10px 80px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+span{
+    font-size: 50px;
+}
+
+#appetiser{
+    display: flex;
+}
+
+#gallery h1{
+text-align: center;
+}
+
+#gallery img{
+padding-left: 30px;
+
+}
+
+.taco h1,.taco p{
+    background-color: #ffc600;
+}
+
+.example{
+    margin-top: 30px;
+}
+
+.example button{
+    background-color: #ffc600;
+    border: none;
+    padding: 10px 20px;
+}
+
+.taco h1{
+    font-size: 35px;
+        padding: 5px;
+}
+
+.taco p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: column;
+}
+
+.pay .tacos{
+margin-bottom: 34px;
+margin-left: 33px;
+margin-right: 10px;
+}
+
+.pay .kombu{
+    margin-left: 33px;
+    margin-right: 10px;
+}
+
+.tacos{
+    background-color: #ffc600;
+    /* padding: 48px 180px; */
+    text-align: center;
+}
+
+.kombu{
+    background-color: #ffc600;
+    padding:0px 170px;
+    text-align: center;
+}
+
+.price{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#appetiser{
+    margin-top: 50px;
+    background-color: white;
+    padding: 50px;
+    margin-right: 28px;
+    margin-left: 6px;
+}
